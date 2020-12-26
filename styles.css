@@ -119,3 +119,35 @@ body {
     color: lightseagreen;
   }
   
+  .social-media-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Style all font awesome icons */
+  .fa {
+    margin: 5px;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  /* Set a specific color for each brand */
+
+  .fa-instagram {
+    background: #4178A0;
+    color: white;
+  }
+
+  .fa-snapchat {
+    background: #FFFD33;
+    color: white;
+  }
